@@ -125,6 +125,26 @@ section h3 {
   opacity: 0.9;
 }
 
+.participant-delete {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 18px;
+  line-height: 1;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.participant-delete:hover {
+  background: rgba(198, 40, 40, 0.06);
+}
+
 .no-participants {
   color: #666;
   background: transparent;
